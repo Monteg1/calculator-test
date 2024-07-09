@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'Geometria';
+  src: url('../../fonts/Geometria-Medium.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  src: url('../../fonts/Geometria-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  background: linear-gradient(to left, rgb(236, 117, 133), rgb(255, 159, 168));
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-family: 'Geometria', sans-serif;
+}
+
+.calculator-container {
+  position: relative;
+  width: 416px;
+  height: 676px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 18px;
+  padding: 35px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 103px;
+  margin-bottom: 103px;
+}
+
+.calculator {
+  width: 354px;
+  height: 600px;
+  background: linear-gradient(190deg, #28518E 0%, #3A77D1 100%);
+  border-radius: 18px;
+  padding: 35px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+}
+
+.display {
+  font-size: 22px;
+  color: white;
+  text-align: right;
+  margin: 30px 0 25px 0
+
+}
+
+.total-display {
+  width: 100%;
+  height: 100px;
+  border-radius: 18px;
+  color: white;
+  font-size: 60px;
+  text-align: right;
+  box-sizing: border-box;
+  font-weight: 700;
+}
+
+hr {
+  background-color: rgba(255, 255, 255, 0.307);
+  height: 2px;
+  border: 0;
+}
+
+.calculator-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 8px;
+  width: 354px;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+.calculator-button {
+  color: white;
+  width: 70px;
+  height: 70px;
+  border: 0;
+  padding: 0;
+  border-radius: 50%;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color:#f0f0f000;
+  font-size: 22px;
+}
+
+.calculator-button:hover {
+  background-color: #ffffff19;
+}
+
+.total {
+  background-color: #fff;
+  color: rgb(42, 42, 192);
+}
+
+.total:hover {
+  background-color: #ffffffa6;
+}
