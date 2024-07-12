@@ -10,7 +10,7 @@ Calc-Test - это простое приложение калькулятора,
   git clone https://github.com/Monteg1/calculator-test
 
 2. Перейдите в директорию проекта:
-  cd calc-test
+  cd calculator-test
 
 3. Установите зависимости:
   npm install
@@ -51,11 +51,11 @@ Calc-Test - это простое приложение калькулятора,
 
 ## Статический анализ
 
-Линтинг JavaScript/TypeScript
+Линтинг JavaScript/TypeScript: 
 Для проверки кода на соответствие стандартам используйте ESLint:
   npm run lint:js
 
-Линтинг CSS
+Линтинг CSS: 
 Для проверки стилей используйте Stylelint:
   npm run lint:css
 
